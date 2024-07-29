@@ -1,0 +1,31 @@
+// main.scss
+
+@keyframes btn_click_anim {
+    to { background-position-x: 200%; }}
+.btn_click_anim {
+    animation: btn_click_anim .2s steps(2) ;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // overflow: hidden;
+    background: black;
+    * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-size: cover;
+    }
+}
+
+#app {
+    // margin: auto;
+    // color: white;
+   
+  }

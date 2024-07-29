@@ -1,0 +1,18 @@
+// viewMove.scss
+$btn_left :url("/assets/ui/btn_left.png");
+$btn_right :url("/assets/ui/btn_right.png");
+
+#btn_left {
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 80px;
+    background-image: $btn_left;
+}
+#btn_right {
+    position: absolute;
+    right: 10px;
+    width: 40px;
+    height: 80px;
+    background-image: $btn_right;
+}

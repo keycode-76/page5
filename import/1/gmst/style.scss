@@ -1,0 +1,40 @@
+// gmst.scss
+$btn_gmst :url("/assets/ui/btn_gmst.png");
+$btn_continue :url("/assets/ui/btn_large.png");
+$btn_volume_0 :url("/assets/ui/btn_large_0.png");
+$btn_credit_0 :url("/assets/ui/btn_large_0.png");
+
+@keyframes btn_click_anim {
+    to { background-position-x: 200%; }}
+.btn_click_anim {
+    animation: btn_click_anim .2s steps(2) ;
+}
+#btn_gmst {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: $btn_gmst;
+    // background-position-x: 100%;
+}
+#gmst_div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    flex-direction: column;
+    .gmst_btn {
+        width: 250px;
+        height: 95px;
+        margin-top: 10px;
+    }
+}
+#gmst_continue {
+    background-image: $btn_continue;
+}
+#gmst_volume {
+    // background: white;
+    background-image: $btn_volume_0;
+}#gmst_credit {
+    // background: white;
+    background-image: $btn_credit_0;
+}
